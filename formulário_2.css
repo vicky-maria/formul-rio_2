@@ -1,0 +1,30 @@
+body {
+				background-image: linear-gradient(60deg, #FF45B1, 55%, #F53E36);
+				background-repeat:no-repeat;
+				background-attachment: fixed;
+				background-size: cover;
+				font-size: 2vw;
+}
+
+div {
+				background-color: white;
+				width: 77%;
+				margin: auto;
+				margin-top: 50px;
+				margin-bottom: 50px;
+				border-radius: 50px;
+				padding: 20px;
+}
+
+input.largura {
+				border-radius: 20px;
+				width: 97%;
+}
+
+fieldset {
+				border-style: none;
+}
+
+legend {
+				text-align: center;
+}

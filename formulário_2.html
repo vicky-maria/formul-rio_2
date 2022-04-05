@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+				<meta charset="UTF-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<title>Formulário</title>
+				<link rel="stylesheet" href="formulário_2.css">
+</head>
+<body>
+				<div>
+								<form>
+												<fieldset>
+																<legend>Dados Pessoais</legend>
+																<label for="nome">Nome</label> <br>
+																<input type="text" id="nome" class="largura" required> <br>
+																<label for="nomeMae">Nome da Mãe</label> <br>
+																<input type="text" id="nomeMae" class="largura" required> <br>
+																<label for="nomePai">Nome do Pai</label> <br>
+																<input type="text" id="nomePai" class="largura" required> <br>
+																<label for="dataNasc">Data de Nascimento</label> <br>
+																<input type="date" max="2004-12-31" id="dataNasc" class="largura" required> <br> 
+																<label id="genero">Gênero</label> <br>
+																<input type="radio" id="genero" value="Feminino" name="genero">Feminino</input> <br>
+																<input type="radio" id="genero" value="Masculino" name="genero">Masculino</input> <br>
+												</fieldset>
+												<fieldset>
+																<legend>Endereço</legend>
+																<label for="cep">CEP</label> <br>
+																<input type="number" maxlength="8" id="cep" class="largura" required> <br>
+																<label for="estado">Estado</label> <br>
+																<input type="text" id="estado" class="largura"> <br>
+																<label for="cidade">Cidade</label> <br>
+																<input type="text" id="cidade" class="largura"> <br>
+																<label for="bairro">Bairro</label> <br>
+																<input type="text" id="bairro" class="largura">	<br>	
+																<label for="rua">Rua</label> <br>
+																<input type="text" id="rua" class="largura">		<br>											
+												</fieldset>
+												
+								</form>
+				</div>
+</body>
+</html>
